@@ -1,0 +1,392 @@
+    /*/////////////////////////////Nav Bar////////////////////////////////////*/
+
+    .mdl-layout-title {
+      display: block;
+      position: fixed;
+      font-family: 'Lobster', cursive !important;
+      font-size: 2rem !important;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      font-weight: 400;
+      box-sizing: border-box;
+  }
+
+  .mdl-layout__header {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      background:black !important; 
+      color: rgb(255,255,255);
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .mdl-layout__drawer-button {
+    position: fixed !important;
+  }
+  
+  .headerApp{
+    font-size: 1em;
+    font-family:'Lobster', cursive ;
+  }
+  
+  /*/////////////////////////////Home//////////////////////////////////////*/
+      .Container{
+        background-image: url("./background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .container {
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color:white;
+        }
+  
+        .big-tagline h2{
+          font-family: 'Lobster', cursive;
+          font-size: 6rem;
+          margin-bottom: 0.5rem; 
+          line-height: 1.2;
+        }
+        
+        .big-tagline p{
+          font-size: 35px;
+          font-weight: 400;
+          line-height: 1.5;
+        }
+        
+        .mdl-layout__drawer-button {
+          margin: 4px;
+          color: rgb(255, 255, 255) !important;
+      }
+
+        .btn-secondary {
+          color: #fff;
+          background-color: #c26b24 !important;
+          border-color: #c26b24 !important;
+          opacity: 0.8;
+      }
+      /*//////////////////////////////ABOUT/////////////////////////////////*/
+      .container1{
+        background-color:#f7e5e5;
+        width: 100%;
+        height: 100%;
+        padding: 50px; 
+      }
+      .demo-grid-2{
+        display: flex;
+        width: 90%;
+        flex-flow: row wrap;
+        margin: 0 auto 0 auto;
+        align-items: stretch;
+      }
+  
+      .container1 h6{
+        text-align: center;
+        font-family: 'Lobster', cursive;
+      }
+      .container1 hr {
+        display: block;
+        height: 1px;
+        border-top: 1px solid #070606;
+        text-align: center;
+        width: 10em;
+        margin: auto;
+
+    }
+  
+      .Img{
+        width: 25em;
+        height: 25em;
+        margin-top: 8rem;   
+       }
+  
+       .heading1 h2 {
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        line-height: 48px;
+        color: black;
+    }
+  
+    .heading1 p{
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: auto;
+        margin-top: 1em;
+      }
+  
+      .container1 h4{
+        font-family: 'Rozha One', serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 1.35;
+        letter-spacing: -0.02em;
+        color:orange;
+        text-align: center;
+        margin-top: 1em;
+      }
+    /*/////////////////////////////////YogaPractice//////////////////////////////*/
+    .container3{
+      background: #232526;  
+      background: -webkit-linear-gradient(to left, #414345, #232526);  
+      background: linear-gradient(to left, #414345, #232526); 
+      width: 100%;
+      height: 100%;
+      padding: 50px;
+    }
+  
+    .container3 h6{
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: white;
+      }
+      .container3 hr {
+        display: block;
+        height: 1px;
+        border-top: 1px solid white;
+        text-align: center;
+        width: 10em;
+        margin: auto;
+    }
+  
+    .container3 h4{
+      font-family: 'Rozha One', serif;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color:orange;
+      margin-top: 1em;
+    }
+      .Yogaimg{
+        width: 100%;
+      }
+  
+    /*/////////////////////////////////////Contact//////////////////////////////////*/
+  
+    .container2{
+      background-color:#f7e5e5;
+      width: 100%;
+      height: 100%;
+      padding: 50px; 
+    }
+  
+    .container2 h6{
+      text-align: center;
+      font-family: 'Lobster', cursive;
+      color:black;
+    }
+    .container2 hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #070606;
+    width: 10em;
+    margin: auto;
+     
+  }
+  
+  .demo-grid-4 {
+    padding: 8px;
+    margin-top: 4em !important;
+    width: 80%;
+  }
+  
+  .heading1 h2{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 1em !important;
+    color:black;
+  }
+  
+  .heading1 hr {
+      display: block;
+      height: 1px;
+      border-top: 2px solid black;
+      font-size: 40px;
+      width: 10em; 
+      margin: auto;
+  }
+  
+
+  /*/////////////////////////////////////////////////////////////////////////*/
+
+  .container4{
+      background: #232526;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+  }
+
+  .demo-grid-5 {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto 0 auto;
+    align-items: stretch;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #414345, #232526);
+    
+}
+  .container4 h6{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+  }
+
+  .container4 hr{
+    display: block;
+    height: 1px;
+    border-top: 1px solid white;
+    text-align: center;
+    width: 10em;
+    margin: auto;
+  }
+
+  .container4 img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    border-radius: 2em;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin: 50px;
+}
+
+  .container4 h4{
+    font-family: 'Rozha One', serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color:orange;
+    margin-top: 1em;
+  }
+
+  .message-box{
+    color:white;
+  }
+
+  /*////////////////////////////////////Footer///////////////////////////////////////*/
+  .mdl-mega-footer {
+    padding: 16px 40px;
+    color:white;
+   
+  }
+  
+  .copyrights {
+    background: #F7971E;  
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    background: linear-gradient(to right, #FFD200, #F7971E); 
+    opacity: 0.8;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0px;
+    overflow: hidden;
+  }
+  
+  .footer-center {
+    text-align: center;
+  }
+  
+  .footer-distributed .footer-company-name {
+    font-weight: 300;
+    margin: 0 10px;
+    color:black;
+    padding: 5px 0px;
+  }
+  .footer-company-name{
+    font-size: 15px;
+  }
+  .footer-company-name a{
+    color:blue
+  }
+
+  .demo-grid-6 h2{
+    font-weight: bold;
+  }
+
+  .demo-grid-6 a{
+    color:rgb(158,158,158);
+    font-size: 15px;
+  }
+
+  .demo-grid-6 p{
+    color:rgb(158,158,158);
+    font-size: 15px;
+  }
+
+  /*////////////////////////////SURYANAMSKAR////////////////////////////////*/
+
+  .demo-grid-6 p {
+    color: antiquewhite;
+    font-size: 16px;
+  }
+  .mdl-list__item {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    display: flex;
+    min-height: 48px;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 16px;
+    cursor: default;
+    color: white !important;
+    overflow: hidden;
+}
+
+/*//////////////////////////////////Pranayam////////////////////////////////////*/
+
+.col-xl-6 {
+  flex: 0 0 50%;
+  max-width: 100% !important;
+}
+
+ul, li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  list-style-type: disc;
+  color: antiquewhite;
+  direction: ltr;
+}
+
+/*//////////////////////////////////Type////////////////////////////////////*/
+
+
+
+
+
+
+/*///////////////////////////////////Yogasana//////////////////////////////////*/
+
+
+
+/*///////////////////////////////////Yogasana1/////////////////////////////////*/
+
+
+
+/*////////////////////////////////////Yogasana2/////////////////////////////////*/
